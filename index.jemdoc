@@ -1,0 +1,24 @@
+# jemdoc: menu{MENU}{index.html}
+= Liang Xu ({{<span lang="zh" xml:lang="zh">}}徐梁{{</span>}})
+
+~~~
+{}{img_left}{./img/photo.jpg}{alt text}{150px}{HEIGHTpx}{IMGLINKTARGET}
+
+*Liang Xu*
+
+Ph.D. Student
+
+[http://www.eee.ntu.edu.sg/Pages/Home.aspx School of Electrical and Electronic Engineering]\n 
+[http://www.ntu.edu.sg/Pages/home.aspx  Nanyang Technological University]\n
+Building S1, Room B4c-14\n
+50 Nanyang Avenue, Singapore 639798\n
+E-mail: [lxu006@e.ntu.edu.sg]
+~~~
+
+== Research Interests
+
+- Control over communication channels/networks
+
+- Distributed control and estimation
+
+- Security and privacy of cyber-physical systems
