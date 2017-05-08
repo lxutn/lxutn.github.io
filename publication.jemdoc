@@ -6,13 +6,18 @@ My [https://scholar.google.com.sg/citations?user=ZhchX4gAAAAJ&hl=en  Google Scho
 
 == Journal Paper
 
-.  L. Xu, L. Xie, and N. Xiao, "Mean Square Stabilization over Gaussian Finite-State Markov Channels," Submitted to /IEEE Transactions on Control of Network Systems/, 2017.
-.  L. Xu, J. Zheng, N. Xiao, and L. Xie, "Mean Square Consensus of Multi-Agent Systems over Fading Networks with Directed Graphs," Submitted to /Automatica/, 2016.
-.  L. Xu, Y. Mo, L. Xie, and N. Xiao, "[./pdf/tac2016.pdf Mean Square Stabilization of Linear Discrete-Time Systems over Power Constrained Fading Channels]," Accepted by /IEEE Transactions on Automatic Control/, 2017.
-.  L. Xu, N. Xiao, and L. Xie, "[./pdf/ac2016.pdf Consensusability of Discrete-Time Linear Multi-Agent Systems over Analog Fading Networks]," /Automatica/, vol. 71, pp. 292-299, 2016.
+. *L. Xu*, L. Xie, and N. Xiao, "Mean Square Stabilization over Gaussian Finite-State Markov Channels," Submitted to /IEEE Transactions on Control of Network Systems/, 2017.
+.  *L. Xu*, J. Zheng, N. Xiao, and L. Xie, "Mean Square Consensus of Multi-Agent Systems over Fading Networks with Directed Graphs," Submitted to /Automatica/, 2016.
+. J. Xu, *L. Xu*,  L. Xie, and H. Zhang, "Decentralized Control for Linear Systems with Multiple Input Channels," Submitted to /Automatica/, 2016.
+. *L. Xu*, Y. Mo, L. Xie, and N. Xiao, "[./pdf/tac2016.pdf Mean Square Stabilization of Linear Discrete-Time Systems over Power Constrained Fading Channels]," Accepted by /IEEE Transactions on Automatic Control/, 2017.
+. *L. Xu*, Q. Hu, and Y. Zhang, "[./pdf/ijrnc2017.pdf L2 performance control of robot manipulators with kinematics, dynamics and actuator uncertainties]," /International Journal of Robust and Nonlinear Control/, vol. 27, pp. 875–893, 2017.
+.  *L. Xu*, N. Xiao, and L. Xie, "[./pdf/ac2016.pdf Consensusability of Discrete-Time Linear Multi-Agent Systems over Analog Fading Networks]," /Automatica/, vol. 71, pp. 292-299, 2016.
+. *L. Xu* and Q. Hu, "[./pdf/iet2013.pdf Output-feedback stabilisation control for a class of under-actuated mechanical systems]," /IET Control Theory & Applications/, vol. 7, pp. 985-996, 2013.
+. Q. Hu, *L. Xu* and A. Zhang. "[./pdf/franklin2012.pdf Adaptive backstepping trajectory tracking control of robot manipulator]," /Journal of the Franklin Institute/, Vol. 349, pp. 1087-1105, 2012. 
+
 
 == Conference Paper
 
-. L. Xu, Y. Mo, and L. Xie, "[./pdf/acc2016.pdf Mean Square Stabilization of Vector LTI Systems over Power Constrained Lossy Channels]," in /Proceedings of the 2016 American Control Conference/, Boston, MA, USA, 2016, pp. 7129-7134.
-. L. Xu, L. Xie, and N. Xiao, "[./pdf/cdc2015.pdf Mean Square Capacity of Power Constrained Fading Channels with Causal Encoders and Decoders]," in /Proceedings of the 54th IEEE Conference on Decision and Control/, Osaka, Japan, 2015, pp. 2465-2470.
-. L. Xu, N. Xiao, and L. Xie, "[./pdf/ccc2014.pdf Consensusability of Linear Multi-Agent Systems over Analog Fading Networks via Dynamic Output Feedback]," in /Proceedings of the 33rd Chinese  Control Conference/, Nanjing, China, 2014, pp. 1650-1655.
+. *L. Xu*, Y. Mo, and L. Xie, "[./pdf/acc2016.pdf Mean Square Stabilization of Vector LTI Systems over Power Constrained Lossy Channels]," in /Proceedings of the 2016 American Control Conference/, Boston, MA, USA, 2016, pp. 7129-7134.
+. *L. Xu*, L. Xie, and N. Xiao, "[./pdf/cdc2015.pdf Mean Square Capacity of Power Constrained Fading Channels with Causal Encoders and Decoders]," in /Proceedings of the 54th IEEE Conference on Decision and Control/, Osaka, Japan, 2015, pp. 2465-2470.
+. *L. Xu*, N. Xiao, and L. Xie, "[./pdf/ccc2014.pdf Consensusability of Linear Multi-Agent Systems over Analog Fading Networks via Dynamic Output Feedback]," in /Proceedings of the 33rd Chinese  Control Conference/, Nanjing, China, 2014, pp. 1650-1655.
