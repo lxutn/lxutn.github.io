@@ -1,2 +1,4 @@
 
 This is my personal website based on [[http://jemdoc.jaboc.net/][jemdoc]]. 
+
+- Build docker/python2 and run ~make~ in terminal. 
