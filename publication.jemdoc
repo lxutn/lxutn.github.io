@@ -5,8 +5,7 @@ My [https://scholar.google.com.sg/citations?user=ZhchX4gAAAAJ&hl=en  Google Scho
 
 == Journal Paper
 
-. J. Xu, *L. Xu*,  L. Xie, and H. Zhang, "Decentralized Control for Linear Systems with Multiple Input Channels," submitted, 2017.
-. J. Zheng, *L Xu*, L. Xie, and K. You, "Consensusability of Discrete-Time Multi-Agent Systems with Communication Delay and Packet Dropouts," submitted, 2017.
+. J. Zheng, *L Xu*, L. Xie, and K. You, "Consensusability of Discrete-Time Multi-Agent Systems with Communication Delay and Packet Dropouts," revised and resubmitted to /IEEE Transactions on Automatic Control/, 2018.
 . *L. Xu*, J. Zheng, N. Xiao, and L. Xie, "Mean Square Consensus of Multi-Agent Systems over Fading Networks with Directed Graphs," provisionally accepted by /Automatica/, 2017.
 . *L. Xu*, L. Xie, and N. Xiao, "[./pdf/tcns2017.pdf Mean Square Stabilization over Gaussian Finite-State Markov Channels]," accepted by /IEEE Transactions on Control of Network Systems/, 2017.
 . *L. Xu*, Y. Mo, L. Xie, and N. Xiao, "[./pdf/tac2016.pdf Mean Square Stabilization of Linear Discrete-Time Systems over Power Constrained Fading Channels]," /IEEE Transactions on Automatic Control/,
@@ -19,6 +18,7 @@ vol. 62, no. 12, pp. 6505-6512, 2017.
 
 == Conference Paper
 
+. *L. Xu*, X. Mo, and Y. Mo, "Secure State Estimation for Linear Time-varying Processes via Local Estimators," submitted to /the IEEE Conference on Decision and Control/, 2018.
 . *L. Xu*, Y. Mo, and L. Xie, "[./pdf/acc2016.pdf Mean Square Stabilization of Vector LTI Systems over Power Constrained Lossy Channels]," in /Proceedings of the 2016 American Control Conference/, Boston, MA, USA, 2016, pp. 7129-7134.
 . *L. Xu*, L. Xie, and N. Xiao, "[./pdf/cdc2015.pdf Mean Square Capacity of Power Constrained Fading Channels with Causal Encoders and Decoders]," in /Proceedings of the 54th IEEE Conference on Decision and Control/, Osaka, Japan, 2015, pp. 2465-2470.
 . *L. Xu*, N. Xiao, and L. Xie, "[./pdf/ccc2014.pdf Consensusability of Linear Multi-Agent Systems over Analog Fading Networks via Dynamic Output Feedback]," in /Proceedings of the 33rd Chinese  Control Conference/, Nanjing, China, 2014, pp. 1650-1655.
