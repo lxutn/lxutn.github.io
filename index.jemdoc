@@ -6,21 +6,26 @@
 
 *Liang Xu*
 
-Research Fellow 
+Postdoctoral Researcher
 
-[http://www.eee.ntu.edu.sg/Pages/Home.aspx School of Electrical and Electronic Engineering]\n 
-[http://www.ntu.edu.sg/Pages/home.aspx  Nanyang Technological University]\n
+Automatic Control Laboratory (LA)\n 
+École polytechnique fédérale de Lausanne (EPFL)\n
 
 
-Building S2, Room B2c-118\n
-50 Nanyang Avenue, Singapore 639798\n
-E-mail: [lxu006@e.ntu.edu.sg]
+ME C2 401 (Bâtiment ME), Station 9 \n
+CH-1015 Lausanne, Switzerland \n
+
+E-mail: lxu006 /at/ e.ntu.edu.sg, liang.xu /at/ epfl.ch
 ~~~
 
 == Research Interests
 
-- Security and privacy of cyber-physical systems
+- Reinforcement learning
 
-- Control over communication channels/networks
+- Security and privacy of CPS 
 
-- Distributed control and estimation
+- Control over communication
+
+~~~
+This duality can be pursued further and is related to a duality between past and future and the notions of control and knowledge. Thus we may have knowledge of the past but cannot control it; we may control the future but have no knowledge of it. --/Claude Shannon/
+~~~
