@@ -8,11 +8,7 @@ My [https://scholar.google.com.sg/citations?user=ZhchX4gAAAAJ&hl=en  Google Scho
 
 - L. Xu, "Control over Networks with Fading Communication Channels", Doctoral thesis, Nanyang Technological University, Singapore, 2018. [./pdf/phd-thesis.pdf \[pdf\]][./pdf/phd-defense.pdf \[slides\]]
 
-== Submitted
-
-- *L. Xu*, B. Guo, C. Galimberti, M. Farina, R. Carli, G. Ferrari-Trecate, "Suboptimal Distributed LQR Design for Physically Coupled Systems", submitted to IFAC World Congress, 2020.
-
-- M. Turan, *L. Xu*, G. Ferrari-Trecate, "Consensusability of linear interconnected multi-agent systems", submitted to IFAC World Congress, 2020.
+#== Submitted
 
 == Journal Publications 
 
@@ -38,6 +34,10 @@ vol. 62, no. 12, pp. 6505-6512, 2017. [./pdf/tac2016.pdf \[pdf\]]
 - Q. Hu, *L. Xu* and A. Zhang. "Adaptive backstepping trajectory tracking control of robot manipulator," Journal of the Franklin Institute, Vol. 349, pp. 1087-1105, 2012. [./pdf/franklin2012.pdf \[pdf\]]
 
 == Conference Publications 
+
+- *L. Xu*, B. Guo, C. Galimberti, M. Farina, R. Carli, G. Ferrari-Trecate, "Suboptimal Distributed LQR Design for Physically Coupled Systems", accepted by IFAC World Congress, 2020. [./pdf/ifac-2020-partition-lqr.pdf \[pdf\]]
+
+- M. Turan, *L. Xu*, G. Ferrari-Trecate, "Consensusability of linear interconnected multi-agent systems", accepted by IFAC World Congress, 2020. [https://arxiv.org/abs/2003.07121 \[arXiv\]]
 
 - *L. Xu*, Y. Mo and L. Xie, "Remote State Estimation with Stochastic Event-triggered Sensor Schedule
  in the Presence of Packet Drops", the 2019 American Control Conference, 2019. [https://arxiv.org/abs/1810.03310 \[arXiv\]]
