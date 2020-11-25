@@ -20,11 +20,9 @@ E-mail: liang.xu /at/ epfl.ch
 
 == Research Interests
 
-- Reinforcement learning
+- Learning and Control
 
-- Security and privacy of CPS 
-
-- Control over communication
+- Network Control Systems
 
 ~~~
 This duality can be pursued further and is related to a duality between past and future and the notions of control and knowledge. Thus we may have knowledge of the past but cannot control it; we may control the future but have no knowledge of it. --/Claude Shannon/
