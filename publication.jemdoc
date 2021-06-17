@@ -7,12 +7,14 @@ My [https://scholar.google.com.sg/citations?user=ZhchX4gAAAAJ&hl=en  Google Scho
 
 == Submitted
 
-- L. Xu, M. Turan, B. Guo and G. Ferrari-Trecate, "Non-conservative Design of Robust Tracking Controllers Based on Input-output Data", submitted to L4DC2021 [http://arxiv.org/abs/2101.00488 \[link\]]
-- C. Galimberti, L. Xu and G. Ferrari-Trecate, "A Unified Framework for Hamiltonian Deep Neural Networks", submitted to L4DC2021
-- M. Turan, L. Xu, G. Ferrari-Trecate, "On Consensusability of Linear Interconnected Multi-Agent Systems and Simultaneous Stabilization", submitted to IEEE Transactions on Control of Network Systems. [https://arxiv.org/abs/2010.10632 \[link\]]
 - L. Xu, M. Turan, B. Guo and G. Ferrari-Trecate, "A Data-Driven Convex Programming Approach to Worst-Case Robust Tracking Controller Design", submitted to IEEE Transactions on Automatic Control. [https://arxiv.org/abs/2102.11918 \[link\]]
+
 - L. Xu, G. Ferrari-Trecate, "Finite Sample Analysis of Spectral Radius Estimation and Its
   Applications to Networked Control Systems", submitted to L-CSS and CDC2021. [http://arxiv.org/abs/2103.02553 \[link\]]
+
+- C. Galimberti, L. Furieri, L. Xu and G. Ferrari-Trecate, "Hamiltonian Deep Neural Networks Guaranteeing Non-vanishing Gradients by Design", submitted to IEEE Transactions on Automatic Control. [https://arxiv.org/abs/2105.13205 \[link\]]
+
+- M. Turan, L. Xu, G. Ferrari-Trecate, "On Consensusability of Linear Interconnected Multi-Agent Systems and Simultaneous Stabilization", submitted to IEEE Transactions on Control of Network Systems. [https://arxiv.org/abs/2010.10632 \[link\]]
 
 
 == Journal Publications 
@@ -39,6 +41,10 @@ vol. 62, no. 12, pp. 6505-6512, 2017. [./pdf/tac2016.pdf \[pdf\]]
 - Q. Hu, L. Xu and A. Zhang. "Adaptive backstepping trajectory tracking control of robot manipulator," Journal of the Franklin Institute, Vol. 349, pp. 1087-1105, 2012. [./pdf/franklin2012.pdf \[pdf\]]
 
 == Conference Publications 
+
+- L. Xu, M. Turan, B. Guo and G. Ferrari-Trecate, "Non-conservative Design of Robust Tracking Controllers Based on Input-output Data", the 3rd Annual Learning for Dynamics & Control Conference, 2021 [http://proceedings.mlr.press/v144/xu21a.html \[link\]]
+
+- C. Galimberti, L. Xu and G. Ferrari-Trecate, "A Unified Framework for Hamiltonian Deep Neural Networks", the 3rd Annual Learning for Dynamics & Control Conference, 2021  [http://proceedings.mlr.press/v144/galimberti21a.html \[link\]]
 
 - L. Xu, B. Guo, C. Galimberti, M. Farina, R. Carli, G. Ferrari-Trecate, "Suboptimal Distributed LQR Design for Physically Coupled Systems", the IFAC World Congress, 2020. [./pdf/ifac-2020-partition-lqr.pdf \[pdf\]]
 
