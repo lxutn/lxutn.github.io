@@ -14,10 +14,9 @@ My [https://scholar.google.com.sg/citations?user=ZhchX4gAAAAJ&hl=en  Google Scho
 
 - C. Galimberti, L. Furieri, L. Xu and G. Ferrari-Trecate, "Hamiltonian Deep Neural Networks Guaranteeing Non-vanishing Gradients by Design", submitted to IEEE Transactions on Automatic Control, 2021. [https://arxiv.org/abs/2105.13205 \[link\]]
 
-- M. Turan, L. Xu, G. Ferrari-Trecate, "On Consensusability of Linear Interconnected Multi-Agent Systems and Simultaneous Stabilization", submitted to IEEE Transactions on Control of Network Systems, 2020. [https://arxiv.org/abs/2010.10632 \[link\]]
+== Journal Publications
 
-
-== Journal Publications 
+- M. Turan, L. Xu, G. Ferrari-Trecate, "On Consensusability of Linear Interconnected Multi-Agent Systems and Simultaneous Stabilization", accepted by IEEE Transactions on Control of Network Systems, 2021. [https://arxiv.org/abs/2010.10632 \[link\]]
 
 - L. Xu, Y. Mo and L. Xie,"Remote State Estimation with Stochastic Event-triggered Sensor Schedule and Packet Drops," IEEE Transactions on Automatic Control, vol.65, no.11, pp. 4981-4988, 2020. [./pdf/gaussian-mixture.pdf \[pdf\]] [https://ieeexplore.ieee.org/document/9123558/ \[link\]]
 
@@ -46,9 +45,9 @@ vol. 62, no. 12, pp. 6505-6512, 2017. [./pdf/tac2016.pdf \[pdf\]]
 
 - C. Galimberti, L. Xu and G. Ferrari-Trecate, "A Unified Framework for Hamiltonian Deep Neural Networks", the 3rd Annual Learning for Dynamics & Control Conference, 2021  [http://proceedings.mlr.press/v144/galimberti21a.html \[link\]]
 
-- L. Xu, B. Guo, C. Galimberti, M. Farina, R. Carli, G. Ferrari-Trecate, "Suboptimal Distributed LQR Design for Physically Coupled Systems", the IFAC World Congress, 2020. [./pdf/ifac-2020-partition-lqr.pdf \[pdf\]]
+- L. Xu, B. Guo, C. Galimberti, M. Farina, R. Carli, G. Ferrari-Trecate, "Suboptimal Distributed LQR Design for Physically Coupled Systems", the IFAC World Congress, 2020. [./pdf/ifac-2020-partition-lqr.pdf \[pdf\]][https://www.sciencedirect.com/science/article/pii/S2405896320304985 \[link\]]
 
-- M. Turan, L. Xu, G. Ferrari-Trecate, "Consensusability of linear interconnected multi-agent systems", the IFAC World Congress, 2020. [https://arxiv.org/abs/2003.07121 \[arXiv\]]
+- M. Turan, L. Xu, G. Ferrari-Trecate, "Consensusability of linear interconnected multi-agent systems", the IFAC World Congress, 2020. [https://www.sciencedirect.com/science/article/pii/S2405896320313252 \[link\]]
 
 - L. Xu, Y. Mo and L. Xie, "Remote State Estimation with Stochastic Event-triggered Sensor Schedule
  in the Presence of Packet Drops", the 2019 American Control Conference, 2019. [https://arxiv.org/abs/1810.03310 \[arXiv\]]
