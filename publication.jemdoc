@@ -7,11 +7,11 @@ My [https://scholar.google.com.sg/citations?user=ZhchX4gAAAAJ&hl=en  Google Scho
 
 == Submitted
 
+- M. Zakwan, L. Xu, G. Ferrari-Trecate, "On Robust Classification using Contractive Hamiltonian Neural ODEs", submitted, 2022. [https://arxiv.org/abs/2203.11805 \[arXiv\]]
+
 - L. Xu, M. Zakwan, G. Ferrari-Trecate, "Neural Energy Casimir Control", submitted, 2021. [https://arxiv.org/abs/2112.03339 \[arXiv\]]
 
 - L. Xu, M. Turan, B. Guo and G. Ferrari-Trecate, "A Data-Driven Convex Programming Approach to Worst-Case Robust Tracking Controller Design", submitted, 2021. [https://arxiv.org/abs/2102.11918 \[arXiv\]]
-
-- L. Xu, B. Guo, G. Ferrari-Trecate, "Finite-sample-based Spectral Radius Estimation and Stabilizability Test for Networked Control Systems", submitted, 2021. [http://arxiv.org/abs/2103.02553 \[arXiv\]]
 
 - C. Galimberti, L. Furieri, L. Xu and G. Ferrari-Trecate, "Hamiltonian Deep Neural Networks Guaranteeing Non-vanishing Gradients by Design", submitted, 2021. [https://arxiv.org/abs/2105.13205 \[arXiv\]]
 
@@ -40,7 +40,9 @@ vol. 62, no. 12, pp. 6505-6512, 2017. [./pdf/tac2016.pdf \[pdf\]]
 
 - Q. Hu, L. Xu and A. Zhang. "Adaptive backstepping trajectory tracking control of robot manipulator," Journal of the Franklin Institute, Vol. 349, pp. 1087-1105, 2012. [./pdf/franklin2012.pdf \[pdf\]]
 
-== Conference Publications 
+== Conference Publications
+
+- L. Xu, B. Guo, G. Ferrari-Trecate, "Finite-sample-based Spectral Radius Estimation and Stabilizability Test for Networked Control Systems", to appear in the 2022 European Control Conference, 2022. [http://arxiv.org/abs/2103.02553 \[arXiv\]]
 
 - L. Xu, M. Turan, B. Guo and G. Ferrari-Trecate, "Non-conservative Design of Robust Tracking Controllers Based on Input-output Data", the 3rd Annual Learning for Dynamics & Control Conference, 2021 [http://proceedings.mlr.press/v144/xu21a.html \[link\]]
 
