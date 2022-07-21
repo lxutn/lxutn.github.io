@@ -7,18 +7,18 @@ My [https://scholar.google.com.sg/citations?user=ZhchX4gAAAAJ&hl=en  Google Scho
 
 == Submitted
 
-- L. Xu, M. Zakwan, G. Ferrari-Trecate, "Neural Energy Casimir Control for Port-Hamiltonian Systems", submitted, 2021. [https://arxiv.org/abs/2112.03339 \[arXiv\]]
 
 - L. Xu, M. Turan, B. Guo and G. Ferrari-Trecate, "A Data-Driven Convex Programming Approach to Worst-Case Robust Tracking Controller Design", submitted, 2021. [https://arxiv.org/abs/2102.11918 \[arXiv\]]
 
 - C. Galimberti, L. Furieri, L. Xu and G. Ferrari-Trecate, "Hamiltonian Deep Neural Networks Guaranteeing Non-vanishing Gradients by Design", submitted, 2021. [https://arxiv.org/abs/2105.13205 \[arXiv\]]
 
 == Journal Publications
-- M. Zakwan, L. Xu, G. Ferrari-Trecate, "Robust Classification using Contractive Hamiltonian Neural ODEs", accepted by IEEE Control Systems Letters, 2022. [https://arxiv.org/abs/2203.11805 \[arXiv\]]
 
-- M. Turan, L. Xu, G. Ferrari-Trecate, "On Consensusability of Linear Interconnected Multi-Agent Systems and Simultaneous Stabilization", vol. 9, no. 1, pp. 403-414, IEEE Transactions on Control of Network Systems, 2022. [https://arxiv.org/abs/2010.10632 \[link\]]
+- M. Zakwan, L. Xu, G. Ferrari-Trecate, "Robust Classification using Contractive Hamiltonian Neural ODEs", vol. 7, pp. 145-150, IEEE Control Systems Letters, 2023. [https://arxiv.org/abs/2203.11805 \[arXiv\]] [https://ieeexplore.ieee.org/document/9809979 \[IEEE Xplore\]]
 
-- L. Xu, Y. Mo and L. Xie,"Remote State Estimation with Stochastic Event-triggered Sensor Schedule and Packet Drops," IEEE Transactions on Automatic Control, vol.65, no.11, pp. 4981-4988, 2020. [./pdf/gaussian-mixture.pdf \[pdf\]] [https://ieeexplore.ieee.org/document/9123558/ \[link\]]
+- M. Turan, L. Xu, G. Ferrari-Trecate, "On Consensusability of Linear Interconnected Multi-Agent Systems and Simultaneous Stabilization", vol. 9, no. 1, pp. 403-414, IEEE Transactions on Control of Network Systems, 2022. [https://arxiv.org/abs/2010.10632 \[arXiv\]] [https://ieeexplore.ieee.org/document/9520243 \[IEEE Xplore\]]
+
+- L. Xu, Y. Mo and L. Xie,"Remote State Estimation with Stochastic Event-triggered Sensor Schedule and Packet Drops," IEEE Transactions on Automatic Control, vol.65, no.11, pp. 4981-4988, 2020. [./pdf/gaussian-mixture.pdf \[pdf\]] [https://ieeexplore.ieee.org/document/9123558/ \[IEEE Xplore\]]
 
 - L. Xu, Y. Mo and L. Xie,"Distributed Consensus over Markovian Packet Loss Channels," IEEE Transactions on Automatic Control, vol. 65, no.1, pp. 279-286, 2020. [./pdf/markov-consensus.pdf \[pdf\]]
 
@@ -41,7 +41,9 @@ vol. 62, no. 12, pp. 6505-6512, 2017. [./pdf/tac2016.pdf \[pdf\]]
 
 == Conference Publications
 
-- L. Xu, B. Guo, G. Ferrari-Trecate, "Finite-sample-based Spectral Radius Estimation and Stabilizability Test for Networked Control Systems", to appear in the 2022 European Control Conference, 2022. [http://arxiv.org/abs/2103.02553 \[arXiv\]]
+- L. Xu, M. Zakwan, G. Ferrari-Trecate, "Neural Energy Casimir Control for Port-Hamiltonian Systems", the IEEE Conference on Decision and Control, 2022. [https://arxiv.org/abs/2112.03339 \[arXiv\]]
+
+- L. Xu, B. Guo, G. Ferrari-Trecate, "Finite-sample-based Spectral Radius Estimation and Stabilizability Test for Networked Control Systems", the European Control Conference, 2022. [http://arxiv.org/abs/2103.02553 \[arXiv\]]
 
 - L. Xu, M. Turan, B. Guo and G. Ferrari-Trecate, "Non-conservative Design of Robust Tracking Controllers Based on Input-output Data", the 3rd Annual Learning for Dynamics & Control Conference, 2021 [http://proceedings.mlr.press/v144/xu21a.html \[link\]]
 
