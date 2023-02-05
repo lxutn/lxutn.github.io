@@ -4,12 +4,8 @@
 
 My [https://scholar.google.com.sg/citations?user=ZhchX4gAAAAJ&hl=en  Google Scholar], [https://orcid.org/0000-0001-8171-0247 ORCID] Page. 
 
-
-== Submitted
-
-- C. Galimberti, L. Furieri, L. Xu and G. Ferrari-Trecate, "Hamiltonian Deep Neural Networks Guaranteeing Non-vanishing Gradients by Design", submitted, 2021. [https://arxiv.org/abs/2105.13205 \[arXiv\]]
-
 == Journal Publications
+- C. Galimberti, L. Furieri, L. Xu and G. Ferrari-Trecate, "Hamiltonian Deep Neural Networks Guaranteeing Non-vanishing Gradients by Design", accepted by IEEE Transactions on Automatic Control, 2023. [https://arxiv.org/abs/2105.13205 \[arXiv\]] [https://ieeexplore.ieee.org/document/10025364 \[IEEE Xplore\]]
 
 - M. Zakwan, L. Xu, G. Ferrari-Trecate, "Robust Classification using Contractive Hamiltonian Neural ODEs", vol. 7, pp. 145-150, IEEE Control Systems Letters, 2023. [https://arxiv.org/abs/2203.11805 \[arXiv\]] [https://ieeexplore.ieee.org/document/9809979 \[IEEE Xplore\]]
 
@@ -38,9 +34,9 @@ vol. 62, no. 12, pp. 6505-6512, 2017. [./pdf/tac2016.pdf \[pdf\]]
 
 == Conference Publications
 
-- L. Xu, M. Zakwan, G. Ferrari-Trecate, "Neural Energy Casimir Control for Port-Hamiltonian Systems", the IEEE Conference on Decision and Control, 2022. [https://arxiv.org/abs/2112.03339 \[arXiv\]]
+- L. Xu, M. Zakwan, G. Ferrari-Trecate, "Neural Energy Casimir Control for Port-Hamiltonian Systems", the IEEE Conference on Decision and Control, 2022. [https://arxiv.org/abs/2112.03339 \[arXiv\]] [https://ieeexplore.ieee.org/document/9992784 \[IEEE Xplore\]]
 
-- L. Xu, B. Guo, G. Ferrari-Trecate, "Finite-sample-based Spectral Radius Estimation and Stabilizability Test for Networked Control Systems", the European Control Conference, 2022. [http://arxiv.org/abs/2103.02553 \[arXiv\]]
+- L. Xu, B. Guo, G. Ferrari-Trecate, "Finite-sample-based Spectral Radius Estimation and Stabilizability Test for Networked Control Systems", the European Control Conference, 2022. [http://arxiv.org/abs/2103.02553 \[arXiv\]] [https://ieeexplore.ieee.org/document/9838044 \[IEEE Xplore\]]
 
 - L. Xu, M. Turan, B. Guo and G. Ferrari-Trecate, "Non-conservative Design of Robust Tracking Controllers Based on Input-output Data", the 3rd Annual Learning for Dynamics & Control Conference, 2021 [http://proceedings.mlr.press/v144/xu21a.html \[link\]] [https://arxiv.org/abs/2102.11918 \[arXiv\]]
 
