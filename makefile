@@ -4,7 +4,9 @@ JDOCS=$(addsuffix .jemdoc, $(DOCS))
 
 .PHONY: update
 
-update: $(JDOCS)  MENU; for i in $(JDOCS); do python2 jemdoc.py -c mysite.conf $$i; done; echo 'update done.'
+PYTHON ?= python3
+
+update: $(JDOCS)  MENU; for i in $(JDOCS); do $(PYTHON) jemdoc.py -c mysite.conf $$i || exit 1; done; echo 'update done.'
 
 .PHONY: clean
 

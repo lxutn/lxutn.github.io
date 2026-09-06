@@ -26,33 +26,35 @@ import sys
 import os
 import re
 import time
-import StringIO
+import io
 from subprocess import *
 import tempfile
 
 def info():
-  print __doc__
-  print 'Platform: ' + sys.platform + '.'
-  print 'Python: %s, located at %s.' % (sys.version[:5], sys.executable)
-  print 'Equation support:',
+  print(__doc__)
+  print('Platform: ' + sys.platform + '.')
+  print('Python: %s, located at %s.' % (sys.version[:5], sys.executable))
+  print('Equation support:', end=' ')
   (supported, message) = testeqsupport()
   if supported:
-    print 'yes.'
+    print('yes.')
   else:
-    print 'no.'
-  print message
+    print('no.')
+  print(message)
 
 def testeqsupport():
   supported = True
   msg = ''
-  p = Popen('latex --version', shell=True, stdout=PIPE, stderr=PIPE)
+  p = Popen('latex --version', shell=True, stdout=PIPE, stderr=PIPE,
+            universal_newlines=True)
   rc = p.wait()
   if rc != 0:
     msg += '  latex: not found.\n'
     supported = False
   else:
     msg += '  latex: ' + p.stdout.readlines()[0].rstrip() + '.\n'
-  p = Popen('dvipng --version', shell=True, stdout=PIPE, stderr=PIPE)
+  p = Popen('dvipng --version', shell=True, stdout=PIPE, stderr=PIPE,
+            universal_newlines=True)
   rc = p.wait()
   if rc != 0:
     msg += '  dvipng: not found.\n'
@@ -85,7 +87,7 @@ class controlstruct(object):
 
   def pushfile(self, newfile):
     self.otherfiles.insert(0, self.inf)
-    self.inf = open(newfile, 'rb')
+    self.inf = open(newfile, 'r', encoding='utf-8')
 
   def nextfile(self):
     self.inf.close()
@@ -127,7 +129,7 @@ def showhelp():
     else:
       b += l
 
-  print b
+  print(b)
 
 def standardconf():
   a = """[firstbit]
@@ -293,9 +295,9 @@ def parseconf(cns):
   syntax = {}
   warn = False # jem. make configurable?
   # manually add the defaults as a file handle.
-  fs = [StringIO.StringIO(standardconf())]
+  fs = [io.StringIO(standardconf())]
   for sname in cns:
-    fs.append(open(sname, 'rb'))
+    fs.append(open(sname, 'r', encoding='utf-8'))
 
   for f in fs:
     while pc(controlstruct(f)) != '':
@@ -318,7 +320,7 @@ def parseconf(cns):
   return syntax
 
 def insertmenuitems(f, mname, current, prefix):
-  m = open(mname, 'rb')
+  m = open(mname, 'r', encoding='utf-8')
   while pc(controlstruct(m)) != '':
     l = readnoncomment(m)
     l = l.strip()
@@ -381,6 +383,7 @@ def hb(f, tag, content1, content2=None):
 def pc(f, ditchcomments=True):
   """Peeks at next character in the file."""
   # Should only be used to look at the first character of a new line.
+  pos = f.inf.tell()
   c = f.inf.read(1)
   if c: # only undo forward movement if we're not at the end.
     if ditchcomments and c == '#':
@@ -394,7 +397,9 @@ def pc(f, ditchcomments=True):
     if c == '\\':
       c += pc(f)
 
-    f.inf.seek(-1, 1)
+    # Python 3 text streams only support absolute seeks, so rewind using the
+    # position recorded before the read instead of a relative seek(-1, 1).
+    f.inf.seek(pos)
   elif f.otherfiles:
     f.nextfile()
     return pc(f, ditchcomments)
@@ -531,8 +536,8 @@ def replaceequations(b, f):
         # Check that the tools we need exist.
         (supported, message) = testeqsupport()
         if not supported:
-          print 'WARNING: equation support disabled.'
-          print message
+          print('WARNING: equation support disabled.')
+          print(message)
           f.eqsupport = False
           return b
 
@@ -648,9 +653,9 @@ def br(b, f, tableblock=False):
   for m in r.findall(b):
     repl = os.environ.get(m)
     if repl == None:
-      b = re.sub("!\$%s\$!" % m, 'FAILED_MATCH_' + m, b)
+      b = re.sub(r"!\$%s\$!" % m, 'FAILED_MATCH_' + m, b)
     else:
-      b = re.sub("!\$%s\$!" % m, repl, b)
+      b = re.sub(r"!\$%s\$!" % m, repl, b)
 
   # Deal with literal backspaces.
   if f.eqs and f.eqsupport:
@@ -819,7 +824,7 @@ def gethl(lang):
     d['special'] = ['cols', 'optvar', 'param', 'problem', 'norm2', 'norm1',
             'value', 'minimize', 'maximize', 'rows', 'rand',
             'randn', 'printval', 'matrix']
-    d['error'] = ['\w*Error',]
+    d['error'] = [r'\w*Error',]
     d['commentuntilend'] = '#'
     d['strings'] = True
   elif lang in ['perl']:
@@ -831,7 +836,7 @@ def gethl(lang):
             'use', 'no', 'my', 'local', 'our', 'system']
     d['special'] = ['abs','atan2','cos','exp','hex',
             'int','log','oct','rand', 'sin','sqrt','sran']
-    d['error'] = ['\w*Error',]
+    d['error'] = [r'\w*Error',]
     d['commentuntilend'] = '#'
     d['strings'] = True
   elif lang in ['c', 'c++', 'cpp']:
@@ -840,7 +845,7 @@ def gethl(lang):
             'clock_t', 'struct', 'long', 'extern', 'char']
     d['operator'] = ['#include.*', '#define', '@pyval{', '}@', '@pyif{',
              '@py{']
-    d['error'] = ['\w*Error',]
+    d['error'] = [r'\w*Error',]
     d['commentuntilend'] = ['//', '/*', ' * ', '*/']
   elif lang in ('rb', 'ruby'):
     d['statement'] = putbsbs(['while', 'until', 'unless', 'if', 'elsif',
@@ -849,7 +854,7 @@ def gethl(lang):
     d['operator'] = putbsbs(['and', 'not', 'or'])
     d['builtin'] = putbsbs(['true', 'false', 'require', 'warn'])
     d['special'] = putbsbs(['IO'])
-    d['error'] = putbsbs(['\w*Error',])
+    d['error'] = putbsbs([r'\w*Error',])
     d['commentuntilend'] = '#'
     d['strings'] = True
     d['strings'] = True
@@ -867,13 +872,13 @@ def gethl(lang):
     d['builtin'] = putbsbs(['gem', 'gcc', 'python', 'curl', 'wget', 'ssh',
                 'latex', 'find', 'sed', 'gs', 'grep', 'tee',
                 'gzip', 'killall', 'echo', 'touch',
-                'ifconfig', 'git', '(?<!\.)tar(?!\.)'])
+                'ifconfig', 'git', r'(?<!\.)tar(?!\.)'])
     d['commentuntilend'] = '#'
     d['strings'] = True
   elif lang == 'matlab':
     d['statement'] = putbsbs(['max', 'min', 'find', 'rand', 'cumsum', 'randn', 'help',
                      'error', 'if', 'end', 'for'])
-    d['operator'] = ['&gt;', 'ans =', '>>', '~', '\.\.\.']
+    d['operator'] = ['&gt;', 'ans =', '>>', '~', r'\.\.\.']
     d['builtin'] = putbsbs(['csolve'])
     d['commentuntilend'] = '%'
     d['strings'] = True
@@ -948,7 +953,7 @@ def geneq(f, eq, dpi, wl, outname):
   eqdepths = {}
   if f.eqcache:
     try:
-      dc = open(os.path.join(f.eqdir, '.eqdepthcache'), 'rb')
+      dc = open(os.path.join(f.eqdir, '.eqdepthcache'), 'r', encoding='utf-8')
       for l in dc:
         a = l.split()
         eqdepths[a[0]] = int(a[1])
@@ -957,22 +962,22 @@ def geneq(f, eq, dpi, wl, outname):
       if os.path.exists(eqname) and eqname in eqdepths:
         return (eqdepths[eqname], eqname)
     except IOError:
-      print 'eqdepthcache read failed.'
+      print('eqdepthcache read failed.')
 
   # Open tex file.
   tempdir = tempfile.gettempdir()
   fd, texfile = tempfile.mkstemp('.tex', '', tempdir, True)
   basefile = texfile[:-4]
-  g = os.fdopen(fd, 'wb')
+  g = os.fdopen(fd, 'w', encoding='utf-8')
 
-  preamble = '\documentclass{article}\n'
+  preamble = '\\documentclass{article}\n'
   for p in f.eqpackages:
-    preamble += '\usepackage{%s}\n' % p
+    preamble += '\\usepackage{%s}\n' % p
   for p in f.texlines:
     # Replace \{ and \} in p with { and }.
     # XXX hack.
     preamble += re.sub(r'\\(?=[{}])', '', p + '\n')
-  preamble += '\pagestyle{empty}\n\\begin{document}\n'
+  preamble += '\\pagestyle{empty}\n\\begin{document}\n'
   g.write(preamble)
   
   # Write the equation itself.
@@ -982,7 +987,7 @@ def geneq(f, eq, dpi, wl, outname):
     g.write('$%s$' % eq)
 
   # Finish off the tex file.
-  g.write('\n\\newpage\n\end{document}')
+  g.write('\n\\newpage\n\\end{document}')
   g.close()
 
   exts = ['.tex', '.aux', '.dvi', '.log']
@@ -994,7 +999,7 @@ def geneq(f, eq, dpi, wl, outname):
     rc = p.wait()
     if rc != 0:
       for l in p.stdout.readlines():
-        print '  ' + l.rstrip()
+        print('  ' + l.rstrip())
       exts.remove('.tex')
       raise Exception('latex error')
 
@@ -1004,7 +1009,7 @@ def geneq(f, eq, dpi, wl, outname):
     p = Popen(dvicmd, shell=True, stdout=PIPE, stderr=PIPE)
     rc = p.wait()
     if rc != 0:
-      print p.stderr.readlines()
+      print(p.stderr.readlines())
       raise Exception('dvipng error')
     depth = int(p.stdout.readlines()[-1].split('=')[-1])
   finally:
@@ -1017,11 +1022,11 @@ def geneq(f, eq, dpi, wl, outname):
   # Update the cache if we're using it.
   if f.eqcache and eqname not in eqdepths:
     try:
-      dc = open(os.path.join(f.eqdir, '.eqdepthcache'), 'ab')
+      dc = open(os.path.join(f.eqdir, '.eqdepthcache'), 'a', encoding='utf-8')
       dc.write(eqname + ' ' + str(depth) + '\n')
       dc.close()
     except IOError:
-      print 'eqdepthcache update failed.'
+      print('eqdepthcache update failed.')
   return (depth, eqname)
 
 def dashlist(f, ordered=False):
@@ -1132,7 +1137,7 @@ def codeblock(f, g):
         out(f.outf, l)
       elif g[1] == 'jemdoc':
         # doing this more nicely needs python 2.5.
-        for x in ('#', '~', '>>>', '\~', '{'):
+        for x in ('#', '~', '>>>', r'\~', '{'):
           if str(l).lstrip().startswith(x):
             out(f.outf, '</tt><pre class="tthl">')
             out(f.outf, l + '</pre><tt class="tthl">')
@@ -1161,7 +1166,7 @@ def codeblock(f, g):
   if raw:
     return
   elif ext_prog:
-    print 'filtering through %s...' % ext_prog
+    print('filtering through %s...' % ext_prog)
 
     output,_ = Popen(ext_prog, shell=True, stdin=PIPE,
                      stdout=PIPE).communicate(buff)
@@ -1357,13 +1362,13 @@ def procfile(f):
       # Quickly pull out the equation here:
       # Check we don't already have the terminating character in a whole-line
       # equation without linebreaks, eg \( Ax=b \):
-      if not s.strip().endswith('\)'):
+      if not s.strip().endswith(r'\)'):
         while True:
           l = nl(f, codemode=True)
           if not l:
             break
           s += l
-          if l.strip() == '\)':
+          if l.strip() == r'\)':
             break
       out(f.outf, br(s.strip(), f))
 
@@ -1514,7 +1519,7 @@ def main():
     showhelp()
     raise SystemExit
   if sys.argv[1] == '--show-config':
-    print standardconf()
+    print(standardconf())
     raise SystemExit
   if sys.argv[1] == '--version':
     info()
@@ -1564,8 +1569,8 @@ def main():
     else:
       thisout = outname
 
-    infile = open(inname, 'rUb')
-    outfile = open(thisout, 'w')
+    infile = open(inname, 'r', encoding='utf-8')
+    outfile = open(thisout, 'w', encoding='utf-8')
 
     f = controlstruct(infile, outfile, conf, inname)
     procfile(f)
