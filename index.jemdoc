@@ -2,26 +2,42 @@
 = Liang Xu (徐梁)
 
 ~~~
-{}{img_left}{./img/photo.jpg}{alt text}{200px}{HEIGHTpx}{IMGLINKTARGET}
-
+{}{img_left}{./img/photo.jpg}{Liang Xu}{180px}{}{}
 *Liang Xu*
 
-Professor
+Professor and Doctoral Supervisor\n
+Hangzhou International Innovation Institute\n
+Beihang University, Hangzhou, China
 
-Hangzhou International Innovation Institute\n 
-Beihang University, Hangzhou, China\n
-
-
+Office: Room 3007, Research Building 3\n
 E-mail: lxu006 /at/ e.ntu.edu.sg
+
+[https://scholar.google.com/citations?user=ZhchX4gAAAAJ&hl=en Google Scholar] · [https://orcid.org/0000-0001-8171-0247 ORCID] · [https://shi.buaa.edu.cn/xuliang1 Beihang Faculty Page]
 ~~~
+
+== About Me
+
+I am a Professor and doctoral supervisor at the Hangzhou International Innovation Institute, Beihang University, and was selected for the National Overseas High-Level Young Talents Program. I received the B.S. and M.S. degrees from Harbin Institute of Technology in 2011 and 2013, and the Ph.D. degree from the School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore, in 2018. I was then a researcher at NTU and a postdoctoral researcher at EPFL, Switzerland, and a Professor at Shanghai University from 2022 to 2026. My research lies at the intersection of control, learning and robotics, with applications to spacecraft, intelligent unmanned systems and robots.
 
 == Research Interests
 
-- Network Control Systems
+- *Networked Control Systems*: control and estimation over imperfect communication channels, consensus of multi-agent systems, and resilient multi-agent control.
+- *Learning and Control*: neural networks for control with stability guarantees, control-theoretic design of neural networks, data-driven control and finite-sample analysis.
+- *Robot Navigation and Manipulation*: robust visual odometry, language-guided outdoor navigation, and robot manipulation.
 
-- Learning and Control
+See [publication.html Publication] for representative papers in each direction.
 
-- Robot Navigation and Manipulation
+== News
+
+- *2026.09*: Joined the Hangzhou International Innovation Institute, Beihang University, as a Professor.
+- *2026*: G-DRAGON, on language-guided outdoor robot navigation, published in IEEE Robotics and Automation Letters.
+- *2026*: Papers published in IEEE Transactions on Cybernetics, IEEE Transactions on Control of Network Systems and IEEE Control Systems Letters.
+- *2025*: Received the First Prize of the Natural Science Award, China Simulation Federation.
+- *2025*: BRIGHT-VO published at IJCAI 2025, and Safety Meets Speed published in IEEE Robotics and Automation Letters.
+
+== Openings
+
+I am looking for self-motivated Ph.D. students, master students and postdoctoral researchers with backgrounds in control, robotics or machine learning. If you are interested in joining the group, please email me your CV and a short description of your research interests.
 
 ~~~
 This duality can be pursued further and is related to a duality between past and future and the notions of control and knowledge. Thus we may have knowledge of the past but cannot control it; we may control the future but have no knowledge of it. --/Claude Shannon/

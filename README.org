@@ -1,7 +1,7 @@
 
 This is my personal website based on [[http://jemdoc.jaboc.net/][jemdoc]].
 
-Require python2 to build html files. Can use conda and follow the link to install python2 [[https://docs.anaconda.com/anaconda/user-guide/tasks/switch-environment/][Switching between Python 2 and Python 3 environments — Anaconda documentation]]
+Build the html files with python3 (the bundled jemdoc.py runs under python3). Site-wide head and footer settings are in mysite.conf; extra styles are at the end of jemdoc.css.
 
 - run ~make~ in terminal.
   

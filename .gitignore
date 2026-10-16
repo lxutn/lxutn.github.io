@@ -32,3 +32,6 @@ makefile~
 mysite.conf~
 
 *.jemdoc~
+# editor autosaves and local tool folders
+\#*\#
+.workbuddy-ai/

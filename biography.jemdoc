@@ -1,26 +1,55 @@
 # jemdoc: menu{MENU}{biography.html}
-= Biography 
+= Biography
 
-== Education 
+== Education
 
-Ph.D., *Nanyang Technological University* (NTU), Singapore, Aug 2013 - Feb 2018  
+Ph.D., *Nanyang Technological University* (NTU), Singapore, Aug 2013 - Feb 2018
 
-- School of Electrical and Electronic Engineering 
+- School of Electrical and Electronic Engineering
 - Advisor: Prof. Lihua Xie
+- Thesis: Control over Networks with Fading Communication Channels
 
-M.Sc.,  *Harbin Institute of Technology*, China, Sep 2011 - Jul 2013 
+M.Sc., *Harbin Institute of Technology* (HIT), China, Sep 2011 - Jul 2013
 
-- Department of Control Science and Engineering
+- School of Astronautics, Control Science and Engineering
 - Advisor: Prof. Qinglei Hu
 
-B.S., *Harbin Institute of Technology*, China, Sep 2007 – Jul 2011 
+B.S., *Harbin Institute of Technology* (HIT), China, Sep 2007 - Jul 2011
 
-- Department of Control Science and Engineering
+- School of Astronautics, Detection, Guidance and Control Technology
 
-== Work
-- Professor, Beihang University, Hangzhou, Sep 2026 - Now.
-- Professor, Shanghai University, China, Nov 2022 - Aug 2026.
-- Postdoctoral Researcher, IGM, EPFL, Switzerland, Jul 2019 - Oct 2022. Advisor: Prof. Giancarlo Ferrari-Trecate 
-- Research Associate/Fellow, EEE, NTU, Singapore, Sep 2017 - Jun 2019. Advisor: Prof. Lihua Xie and Prof. Yilin Mo
+== Work Experience
 
+- Professor and Doctoral Supervisor, Hangzhou International Innovation Institute, Beihang University, China, Sep 2026 - Present
+- Professor and Doctoral Supervisor, School of Future Technology, Shanghai University, China, Nov 2022 - Aug 2026
+- Postdoctoral Researcher, Institute of Mechanical Engineering (IGM), EPFL, Switzerland, Jul 2019 - Oct 2022. Advisor: Prof. Giancarlo Ferrari-Trecate
+- Research Associate / Research Fellow, School of Electrical and Electronic Engineering, NTU, Singapore, Aug 2017 - Jul 2019. Advisors: Prof. Lihua Xie and Prof. Yilin Mo
 
+== Honors and Awards
+
+- First Prize of the Natural Science Award, China Simulation Federation, 2025
+- Weichang Scholar, Shanghai University, 2023
+- Shanghai Overseas High-Level Talent, 2022
+- National Overseas High-Level Young Talents Program
+- Outstanding Graduate and Outstanding Thesis, Harbin Institute of Technology, 2011 and 2013
+
+== Grants
+
+- National Natural Science Foundation of China (NSFC), Excellent Young Scientists Fund (Overseas): Analysis and Design of Networked Control Systems under Communication Constraints, 2023 - 2025
+- NSFC Key Program (sub-project): Autonomous Diagnosis and Cooperative Fault-Tolerant Control of UAV-USV Swarm Systems, 2024 - 2028
+- NSFC General Program: Deep Neural Networks with Performance Guarantees and Their Applications to Intelligent Unmanned Systems, 2024 - 2027
+- Open Fund of the Key Laboratory of Space Intelligent Control: Learning Control Barrier Functions and Adaptive Safe Control for Spacecraft Systems, 2025 - 2027
+
+== Teaching
+
+- Lecturer, Linear Algebra and Analytic Geometry (undergraduate), Shanghai University, 2023
+- Teaching Assistant, Networked Control Systems (graduate), EPFL, 2019 and 2020
+
+== Professional Service
+
+- Youth Editorial Board Member, /Robot/ (机器人)
+- Editorial Board Member, /Frontiers in Control Engineering/
+- Youth Editorial Board Member, /Journal of Automation and Intelligence/
+- Member, Technical Committee on Robotics, Chinese Association of Automation
+- Member, Technical Committee on Large Models and Decision Intelligence, Chinese Institute of Command and Control
+- Reviewer for IEEE Transactions on Automatic Control, Automatica, IEEE Transactions on Control of Network Systems, Systems & Control Letters, IEEE Control Systems Letters, IEEE CDC and ACC
