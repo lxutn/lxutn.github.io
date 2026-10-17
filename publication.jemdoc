@@ -6,17 +6,9 @@ Selected publications are listed below, grouped by research topic. For a complet
 
 == Networked Control Systems
 
-How does imperfect communication, such as channel fading, packet loss, delay, power constraints and cyber-attacks, limit what a networked control system can achieve? We characterized the channel capacity required for mean-square stabilization of linear systems over power-constrained fading and finite-state Markov channels; showed that packet drops make the number of components in the posterior of the optimal estimator grow exponentially, and designed tractable event-triggered estimators; and derived explicit consensusability conditions that couple agent dynamics, network topology and channel statistics. Recent work addresses heterogeneous agents under Markov packet loss and resilient multi-vehicle control under cyber-attacks. Many of these results are collected in our Wiley-IEEE Press monograph.
+How does imperfect communication, such as channel fading, packet loss, delay and power constraints, limit what a networked control system can achieve? We characterized the channel capacity required for mean-square stabilization of linear systems over power-constrained fading and finite-state Markov channels; showed that packet drops make the number of components in the posterior of the optimal estimator grow exponentially, and designed tractable event-triggered estimators; and derived explicit consensusability conditions that couple agent dynamics, network topology and channel statistics. We also studied consensusability and distributed control of physically interconnected systems, and recently extended these results to output consensus of heterogeneous agents under Markov packet loss. Many of these results are collected in our Wiley-IEEE Press monograph.
 
 - Z. Zhang, *L. Xu*, X. Ren and X. Wang, "Distributed Output Consensus for Heterogeneous Multiagent Systems With Markov Packet Loss", IEEE Transactions on Cybernetics, vol. 56, no. 7, pp. 4068-4081, 2026. [https://doi.org/10.1109/tcyb.2026.3663643 \[IEEE Xplore\]]
-
-- C. Liu, R. Xiao, *L. Xu*, X. Ren and X. Wang, "Distributed Formation Control for Underactuated Multi-ASVs Under DoS Attacks Using Value Decomposition Reinforcement Learning", IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2026. [https://doi.org/10.1109/tsmc.2025.3647748 \[IEEE Xplore\]]
-
-- C. Liu, *L. Xu*, D. Xu, X. Wang and Y. Zhang, "Integrated Fault Estimation and Fault-Tolerant Tracking Control for Unmanned Surface Vessels Under Connectivity-Hybrid Cyber-Attacks", IEEE Transactions on Cybernetics, 2025. [https://doi.org/10.1109/tcyb.2025.3598611 \[IEEE Xplore\]]
-
-- C. Zhou, Z. Mao, *L. Xu* and B. Jiang, "Adaptive Output Formation Tracking for Nonlinear Multiagent Systems with Double Semi-Markovian Switching Topologies and Time-Varying Actuator Faults", IEEE Transactions on Cybernetics, vol. 54, no. 10, pp. 6217-6229, 2024. [https://doi.org/10.1109/tcyb.2024.3419830 \[IEEE Xplore\]]
-
-- D. Liu, Z. Mao, B. Jiang and *L. Xu*, "Simplified ADP-Based Distributed Event-Triggered Fault-Tolerant Control of Heterogeneous Nonlinear Multiagent Systems with Full-State Constraints", IEEE Transactions on Circuits and Systems I: Regular Papers, vol. 71, no. 8, pp. 3820-3832, 2024. [https://doi.org/10.1109/tcsi.2024.3389740 \[IEEE Xplore\]]
 
 - J. Zheng, *L. Xu*, Q. Hu and L. Xie, "Control over Communication Networks: Modeling, Analysis, and Design of Networked Control Systems and Multi-Agent Systems over Imperfect Communication Channels", IEEE Press Series on Control Systems Theory and Applications, Wiley-IEEE Press, 2023. [https://doi.org/10.1002/9781119885825 \[Wiley\]]
 
