@@ -6,7 +6,7 @@ JDOCS=$(addsuffix .jemdoc, $(DOCS))
 
 PYTHON ?= python3
 
-update: $(JDOCS)  MENU; for i in $(JDOCS); do $(PYTHON) jemdoc.py -c mysite.conf $$i || exit 1; done; echo 'update done.'
+update: $(JDOCS)  MENU; for i in $(JDOCS); do TZ=Asia/Shanghai $(PYTHON) jemdoc.py -c mysite.conf $$i || exit 1; done; echo 'update done.'
 
 .PHONY: clean
 

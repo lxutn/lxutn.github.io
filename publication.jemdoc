@@ -40,9 +40,9 @@ How does imperfect communication, such as channel fading, packet loss, delay and
 
 How can neural networks and data enter the control loop without giving up guarantees, and how can control theory make neural networks more reliable? *Neural networks for control*: structured neural controllers that are stable for any trainable parameters (for port-Hamiltonian, Lagrangian and multi-agent systems), learned neural contraction metrics and Lyapunov functions, and fast neural MPC with control barrier functions. *Control for neural networks*: Hamiltonian deep networks with provably non-vanishing gradients, contractive neural ODEs that are robust to adversarial inputs, and efficient verification of neural control barrier functions. *Data-driven control and finite-sample analysis*: robust controllers designed directly from input-output data, finite-sample guarantees for system identification and LQR design over lossy channels, global convergence of policy gradient under packet loss, and safety filters with provable performance bounds.
 
-- T. Tian, Z. Zhang and *L. Xu*, "Finite-Sample System Identification of Linear Systems Under Random Packet Loss", IEEE Transactions on Control of Network Systems, 2026. [https://doi.org/10.1109/tcns.2026.3691227 \[IEEE Xplore\]]
+- T. Tian, Z. Zhang and *L. Xu*, "Finite-Sample System Identification of Linear Systems Under Random Packet Loss", IEEE Transactions on Control of Network Systems, vol. 13, no. 3, pp. 1284-1295, 2026. [https://doi.org/10.1109/tcns.2026.3691227 \[IEEE Xplore\]]
 
-- Z. Lin and *L. Xu*, "Curvature-Guided Safety Filters: State-Dependent Hessian-Weighted Projection with Provable Performance Bounds", IEEE Control Systems Letters, 2026. [https://doi.org/10.1109/lcsys.2026.3672437 \[IEEE Xplore\]] [https://arxiv.org/abs/2602.12603 \[arXiv\]]
+- Z. Lin and *L. Xu*, "Curvature-Guided Safety Filters: State-Dependent Hessian-Weighted Projection with Provable Performance Bounds", IEEE Control Systems Letters, vol. 10, pp. 139-144, 2026. [https://doi.org/10.1109/lcsys.2026.3672437 \[IEEE Xplore\]] [https://arxiv.org/abs/2602.12603 \[arXiv\]]
 
 - X. Ren, Y. Ji, J. Qian, *L. Xu* and X. Wang, "KNODEOB-MPC: A Knowledge-Based Neural ODE With Online Observer MPC Framework for Quadrotor", International Journal of Robust and Nonlinear Control, vol. 36, no. 8, pp. 4689-4704, 2026. [https://doi.org/10.1002/rnc.70444 \[Wiley\]]
 
@@ -80,7 +80,7 @@ How can neural networks and data enter the control loop without giving up guaran
 
 Our early work designed adaptive, output-feedback and robust controllers for robot manipulators and underactuated mechanical systems under kinematic, dynamic and actuator uncertainties. More recently we work towards embodied intelligence: robust visual odometry in dynamic and low-light scenes (BRIGHT-VO improves pose accuracy by about 25\% in low light), and G-DRAGON, which grounds natural-language commands in OpenStreetMap with an on-board language model and completed person-search missions of up to 500 m on a real ground vehicle in unseen urban areas.
 
-- D. Wang, Y. Du, J. Sun, Y. Xue, Y. Zhang, B. Xiao, C. Wang and *L. Xu*, "G-DRAGON: Geospatial Reasoning and Dynamic Planning for Retrieval-Augmented Outdoor Navigation", IEEE Robotics and Automation Letters, 2026. [https://doi.org/10.1109/lra.2026.3699135 \[IEEE Xplore\]] [https://arxiv.org/abs/2605.25646 \[arXiv\]]
+- D. Wang, Y. Du, J. Sun, Y. Xue, Y. Zhang, B. Xiao, C. Wang and *L. Xu*, "G-DRAGON: Geospatial Reasoning and Dynamic Planning for Retrieval-Augmented Outdoor Navigation", IEEE Robotics and Automation Letters, vol. 11, no. 7, pp. 8768-8775, 2026. [https://doi.org/10.1109/lra.2026.3699135 \[IEEE Xplore\]] [https://arxiv.org/abs/2605.25646 \[arXiv\]]
 
 - D. Wang, Y. Yang, X. Chen and *L. Xu*, "BRIGHT-VO: Brightness-Guided Hybrid Transformer for Visual Odometry with Multi-modality Refinement Module", the 34th International Joint Conference on Artificial Intelligence (IJCAI), pp. 1936-1944, 2025. [https://doi.org/10.24963/ijcai.2025/216 \[IJCAI\]] [https://arxiv.org/abs/2501.08659 \[arXiv\]]
 
