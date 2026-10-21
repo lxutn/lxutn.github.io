@@ -16,17 +16,17 @@ How does imperfect communication, such as channel fading, packet loss, delay and
 
 - *L. Xu*, Y. Mo and L. Xie, "Remote State Estimation with Stochastic Event-triggered Sensor Schedule and Packet Drops", IEEE Transactions on Automatic Control, vol. 65, no. 11, pp. 4981-4988, 2020. [https://doi.org/10.1109/tac.2020.3004328 \[IEEE Xplore\]]
 
-- *L. Xu*, Y. Mo and L. Xie, "Distributed Consensus over Markovian Packet Loss Channels", IEEE Transactions on Automatic Control, vol. 65, no. 1, pp. 279-286, 2020. [https://doi.org/10.1109/tac.2019.2915747 \[IEEE Xplore\]] [https://arxiv.org/abs/1810.03314 \[arXiv\]]
-
 - *L. Xu*, B. Guo, C. Galimberti, M. Farina, R. Carli and G. Ferrari-Trecate, "Suboptimal Distributed LQR Design for Physically Coupled Systems", the 21st IFAC World Congress, IFAC-PapersOnLine, vol. 53, no. 2, pp. 11032-11037, 2020. [https://doi.org/10.1016/j.ifacol.2020.12.227 \[ScienceDirect\]]
+
+- *L. Xu*, Y. Mo and L. Xie, "Distributed Consensus over Markovian Packet Loss Channels", IEEE Transactions on Automatic Control, vol. 65, no. 1, pp. 279-286, 2020. [https://doi.org/10.1109/tac.2019.2915747 \[IEEE Xplore\]] [https://arxiv.org/abs/1810.03314 \[arXiv\]]
 
 - J. Xu, *L. Xu*, L. Xie and H. Zhang, "Decentralized Control for Linear Systems with Multiple Input Channels", Science China Information Sciences, vol. 62, no. 5, 2019. [https://doi.org/10.1007/s11432-018-9617-0 \[Springer\]]
 
 - J. Zheng, *L. Xu*, L. Xie and K. You, "Consensusability of Discrete-Time Multi-Agent Systems with Communication Delay and Packet Dropouts", IEEE Transactions on Automatic Control, vol. 64, no. 3, pp. 1185-1192, 2019. [https://doi.org/10.1109/tac.2018.2846679 \[IEEE Xplore\]]
 
-- *L. Xu*, J. Zheng, N. Xiao and L. Xie, "Mean Square Consensus of Multi-Agent Systems over Fading Networks with Directed Graphs", Automatica, vol. 95, pp. 503-510, 2018. [https://doi.org/10.1016/j.automatica.2018.06.005 \[ScienceDirect\]]
-
 - *L. Xu*, L. Xie and N. Xiao, "Mean Square Stabilization over Gaussian Finite-State Markov Channels", IEEE Transactions on Control of Network Systems, vol. 5, no. 4, pp. 1830-1840, 2018. [https://doi.org/10.1109/tcns.2017.2763751 \[IEEE Xplore\]]
+
+- *L. Xu*, J. Zheng, N. Xiao and L. Xie, "Mean Square Consensus of Multi-Agent Systems over Fading Networks with Directed Graphs", Automatica, vol. 95, pp. 503-510, 2018. [https://doi.org/10.1016/j.automatica.2018.06.005 \[ScienceDirect\]]
 
 - *L. Xu*, Y. Mo, L. Xie and N. Xiao, "Mean Square Stabilization of Linear Discrete-Time Systems over Power Constrained Fading Channels", IEEE Transactions on Automatic Control, vol. 62, no. 12, pp. 6505-6512, 2017. [https://doi.org/10.1109/tac.2017.2656065 \[IEEE Xplore\]]
 
@@ -42,21 +42,21 @@ How can neural networks and data enter the control loop without giving up guaran
 
 - T. Tian, Z. Zhang and *L. Xu*, "Finite-Sample System Identification of Linear Systems Under Random Packet Loss", IEEE Transactions on Control of Network Systems, vol. 13, no. 3, pp. 1284-1295, 2026. [https://doi.org/10.1109/tcns.2026.3691227 \[IEEE Xplore\]]
 
-- Z. Lin and *L. Xu*, "Curvature-Guided Safety Filters: State-Dependent Hessian-Weighted Projection with Provable Performance Bounds", IEEE Control Systems Letters, vol. 10, pp. 139-144, 2026. [https://doi.org/10.1109/lcsys.2026.3672437 \[IEEE Xplore\]] [https://arxiv.org/abs/2602.12603 \[arXiv\]]
+- Z. Zhang, T. Tian, X. Yi and *L. Xu*, "Global Convergence Analysis of Gauss-Newton Policy Gradient for LQR with Random Packet Loss", the 20th IEEE International Conference on Control and Automation (ICCA), pp. 1918-1923, 2026. [https://doi.org/10.1109/icca69928.2026.11618022 \[IEEE Xplore\]]
 
 - X. Ren, Y. Ji, J. Qian, *L. Xu* and X. Wang, "KNODEOB-MPC: A Knowledge-Based Neural ODE With Online Observer MPC Framework for Quadrotor", International Journal of Robust and Nonlinear Control, vol. 36, no. 8, pp. 4689-4704, 2026. [https://doi.org/10.1002/rnc.70444 \[Wiley\]]
 
-- Z. Zhang, T. Tian, X. Yi and *L. Xu*, "Global Convergence Analysis of Gauss-Newton Policy Gradient for LQR with Random Packet Loss", the 20th IEEE International Conference on Control and Automation (ICCA), pp. 1918-1923, 2026. [https://doi.org/10.1109/icca69928.2026.11618022 \[IEEE Xplore\]]
-
 - J. Zhang, H. Zhang, C. Liu, X. Wang and *L. Xu*, "Efficient Verification of Neural Control Barrier Functions with Smooth Nonlinear Activations", arXiv preprint arXiv:2605.07757, 2026. [https://arxiv.org/abs/2605.07757 \[arXiv\]]
 
-- K. Wang, T. Li, *L. Xu*, Q. Hu and K. You, "Safety Meets Speed: Accelerated Neural MPC With Safety Guarantees and No Retraining", IEEE Robotics and Automation Letters, vol. 10, no. 11, pp. 11411-11418, 2025. [https://doi.org/10.1109/lra.2025.3611157 \[IEEE Xplore\]] [https://arxiv.org/abs/2509.06404 \[arXiv\]]
-
-- J. Qian, *L. Xu*, X. Ren and X. Wang, "Structured Deep Neural Network-Based Backstepping Trajectory Tracking Control for Lagrangian Systems", IEEE Transactions on Neural Networks and Learning Systems, vol. 36, no. 6, pp. 11650-11656, 2025. [https://doi.org/10.1109/tnnls.2024.3445976 \[IEEE Xplore\]] [https://arxiv.org/abs/2403.00381 \[arXiv\]]
+- Z. Lin and *L. Xu*, "Curvature-Guided Safety Filters: State-Dependent Hessian-Weighted Projection with Provable Performance Bounds", IEEE Control Systems Letters, vol. 10, pp. 139-144, 2026. [https://doi.org/10.1109/lcsys.2026.3672437 \[IEEE Xplore\]] [https://arxiv.org/abs/2602.12603 \[arXiv\]]
 
 - M. Zakwan, *L. Xu* and G. Ferrari-Trecate, "Robust Convolution Neural ODEs via Contractivity-promoting Regularization", the 64th IEEE Conference on Decision and Control, pp. 8028-8033, 2025. [https://doi.org/10.1109/cdc57313.2025.11312416 \[IEEE Xplore\]] [https://arxiv.org/abs/2508.11432 \[arXiv\]]
 
+- K. Wang, T. Li, *L. Xu*, Q. Hu and K. You, "Safety Meets Speed: Accelerated Neural MPC With Safety Guarantees and No Retraining", IEEE Robotics and Automation Letters, vol. 10, no. 11, pp. 11411-11418, 2025. [https://doi.org/10.1109/lra.2025.3611157 \[IEEE Xplore\]] [https://arxiv.org/abs/2509.06404 \[arXiv\]]
+
 - J. Qian, *L. Xu*, X. Ren and X. Wang, "Distributed Neural Network-Based Control for Multi-Agent Lagrangian Systems with Stability Guarantees", the 19th IEEE International Conference on Control and Automation (ICCA), pp. 391-396, 2025. [https://doi.org/10.1109/icca65672.2025.11129725 \[IEEE Xplore\]]
+
+- J. Qian, *L. Xu*, X. Ren and X. Wang, "Structured Deep Neural Network-Based Backstepping Trajectory Tracking Control for Lagrangian Systems", IEEE Transactions on Neural Networks and Learning Systems, vol. 36, no. 6, pp. 11650-11656, 2025. [https://doi.org/10.1109/tnnls.2024.3445976 \[IEEE Xplore\]] [https://arxiv.org/abs/2403.00381 \[arXiv\]]
 
 - Z. Zhang, *L. Xu*, Y. Mo and X. Wang, "Learning Control for LQR with Unknown Packet Loss Rate Using Finite Channel Samples", arXiv preprint arXiv:2501.02899, 2025. [https://arxiv.org/abs/2501.02899 \[arXiv\]]
 
@@ -78,7 +78,9 @@ How can neural networks and data enter the control loop without giving up guaran
 
 == Robot Navigation and Manipulation
 
-Our early work designed adaptive, output-feedback and robust controllers for robot manipulators and underactuated mechanical systems under kinematic, dynamic and actuator uncertainties. More recently we work towards embodied intelligence: robust visual odometry in dynamic and low-light scenes (BRIGHT-VO improves pose accuracy by about 25\% in low light), and G-DRAGON, which grounds natural-language commands in OpenStreetMap with an on-board language model and completed person-search missions of up to 500 m on a real ground vehicle in unseen urban areas.
+Our early work designed adaptive, output-feedback and robust controllers for robot manipulators and underactuated mechanical systems under kinematic, dynamic and actuator uncertainties. More recently we work towards embodied intelligence: robust visual odometry in dynamic and low-light scenes (BRIGHT-VO improves pose accuracy by about 25\% in low light), and G-DRAGON, which grounds natural-language commands in OpenStreetMap with an on-board language model and completed person-search missions of up to 500 m on a real ground vehicle in unseen urban areas. For vision-language navigation, HAVANA is a dual-system video-action model in which a slow system produces a language-conditioned latent plan from the observation history and a fast system turns the latest plan and the current observation into local trajectories; the two run asynchronously, so no future video is generated at inference time, and the model achieves state-of-the-art results on OmniNavBench and generalizes to unseen real-world environments across different robots.
+
+- D. Wang, Y. Du, C. Wang, X. Li and *L. Xu*, "HAVANA: A Hierarchical Video-Action Model for Vision-Language Navigation", arXiv preprint arXiv:2610.24122, 2026. [https://arxiv.org/abs/2610.24122 \[arXiv\]]
 
 - D. Wang, Y. Du, J. Sun, Y. Xue, Y. Zhang, B. Xiao, C. Wang and *L. Xu*, "G-DRAGON: Geospatial Reasoning and Dynamic Planning for Retrieval-Augmented Outdoor Navigation", IEEE Robotics and Automation Letters, vol. 11, no. 7, pp. 8768-8775, 2026. [https://doi.org/10.1109/lra.2026.3699135 \[IEEE Xplore\]] [https://arxiv.org/abs/2605.25646 \[arXiv\]]
 
