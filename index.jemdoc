@@ -23,12 +23,13 @@ I am a Professor and doctoral supervisor at the Hangzhou International Innovatio
 
 - *Networked Control Systems*: control and estimation over imperfect communication channels, and consensus and distributed control of multi-agent systems.
 - *Learning and Control*: neural networks for control with stability guarantees, control-theoretic design of neural networks, data-driven control and finite-sample analysis.
-- *Robot Navigation and Manipulation*: robust visual odometry, vision-language and language-guided outdoor navigation, and robot manipulation.
+- *Robot Navigation and Manipulation*: robust visual odometry, vision-language and language-guided outdoor navigation, safe real-time motion planning, and robot manipulation.
 
 See [publication.html Publication] for representative papers in each direction.
 
 == News
 
+- *2026.10*: [https://doi.org/10.1109/lra.2026.3746107 DS-MPPI], horizon-segmented safe sampling for real-time model predictive control, accepted by IEEE Robotics and Automation Letters (early access).
 - *2026.10*: New preprint [https://arxiv.org/abs/2610.24122 HAVANA], a hierarchical video-action model for vision-language navigation, released on arXiv.
 - *2026.09*: Joined the Hangzhou International Innovation Institute, Beihang University, as a Professor.
 - *2026*: G-DRAGON, on language-guided outdoor robot navigation, published in IEEE Robotics and Automation Letters.
